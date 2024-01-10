@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --cor1: #282A2D;
+    --cor2: #000000;
+    --cor3: #41414D;
+    --cor4: #7E8391;
+    --cor-txt: white;
+    --font-titulo: 'Montserrat', sans-serif;
+    --font-txt: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.cabecalho{
+   background-color: var(--cor1); 
+   color: var(--cor-txt);
+   display: flex;
+   flex-direction: column;
+   font-family: var(--font-titulo);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5%;
+}
+
+.menu_links{
+    display: flex;
+    gap: 20px;
+}
+
+.apresentacao{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about{
+    font-family: var(--font-titulo);
+    text-align: center;
+    padding: 2%;
+}
+
+.sub_about{
+    font-family: var(--font-titulo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub{
+    margin-bottom: 20px;
+}
+
+.txt{
+    width: 800px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#tecnologias{
+    text-align: center;
+}
+
+.projects{
+    font-family: var(--font-titulo);
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects_title{
+    margin-bottom: 20px;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    gap: 98px;
+}
+
+.projects-anchors{
+    background-color: var(--cor1);
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 2px;
+    margin-top: 10px;
+}
